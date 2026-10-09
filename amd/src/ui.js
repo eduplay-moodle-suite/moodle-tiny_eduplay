@@ -51,11 +51,13 @@ export const handleAction = async(editor) => {
     });
 
     const root = modal.getRoot();
-    const urlInput = root.find('[data-eduplay="url"]');
-    const textInput = root.find('[data-eduplay="text"]');
-    const error = root.find('[data-eduplay="error"]');
 
     root.on(ModalEvents.save, (e) => {
+        // The body is rendered asynchronously, so look the fields up when the user confirms, not before.
+        const urlInput = root.find('[data-eduplay="url"]');
+        const textInput = root.find('[data-eduplay="text"]');
+        const error = root.find('[data-eduplay="error"]');
+
         const url = getCanonicalUrl(urlInput.val());
         if (url === null) {
             // Keep the dialog open and explain the problem.
