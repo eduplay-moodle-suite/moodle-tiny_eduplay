@@ -24,6 +24,13 @@ Instale este repositório em `lib/editor/tiny/plugins/eduplay` (prefixo `public/
 
 JavaScript sources are in `amd/src`; rebuild `amd/build` with `npx grunt amd` in a Moodle checkout (`--root=lib/editor/tiny/plugins/eduplay`).
 
+## Support, external service and privacy / Suporte, serviço externo e privacidade
+
+- Issue tracker / Rastreador de issues: <https://github.com/eduplay-moodle-suite/moodle-tiny_eduplay/issues>
+- Documentation / Documentação: <https://eduplay-moodle-suite.github.io/moodle-tiny_eduplay/>
+- External service / Serviço externo: [EduPlay](https://eduplay.rnp.br/) (public videos; no account, API key or payment required / vídeos públicos; sem conta, chave de API ou pagamento). See the Privacy API metadata of this plugin / Veja os metadados da Privacy API deste plugin.
+- Translations / Traduções: only English is shipped; other languages go through AMOS / o pacote traz só inglês; outros idiomas via AMOS.
+
 ## License / Licença
 
 GNU GPL v3 or later. See [LICENSE](LICENSE).
