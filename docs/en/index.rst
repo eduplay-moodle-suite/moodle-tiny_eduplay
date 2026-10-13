@@ -22,8 +22,8 @@ See it in 30 seconds
 .. raw:: html
 
    <video controls preload="none" style="width:100%;max-width:960px" aria-label="See it in 30 seconds">
-     <source src="https://eduplay-moodle-suite.github.io/media/tiny.mp4" type="video/mp4">
-     <a href="https://eduplay-moodle-suite.github.io/media/tiny.mp4">MP4</a>
+     <source src="https://eduplay-moodle-suite.github.io/media/tiny.en.mp4" type="video/mp4">
+     <a href="https://eduplay-moodle-suite.github.io/media/tiny.en.mp4">MP4</a>
    </video>
 
 *Click the button, paste the link, insert, save (Moodle interface in English).*
