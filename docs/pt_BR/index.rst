@@ -22,8 +22,8 @@ Veja em 30 segundos
 .. raw:: html
 
    <video controls preload="none" style="width:100%;max-width:960px" aria-label="Veja em 30 segundos">
-     <source src="https://eduplay-moodle-suite.github.io/media/tiny.mp4" type="video/mp4">
-     <a href="https://eduplay-moodle-suite.github.io/media/tiny.mp4">MP4</a>
+     <source src="https://eduplay-moodle-suite.github.io/media/tiny.pt-br.mp4" type="video/mp4">
+     <a href="https://eduplay-moodle-suite.github.io/media/tiny.pt-br.mp4">MP4</a>
    </video>
 
 *Clicar no botão, colar o link, inserir, salvar (interface do Moodle em inglês).*
